@@ -1,0 +1,79 @@
+.login-container {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url('../assets/login-background.png'); /* Ruta a la imagen de fondo */
+    background-size: cover;
+    background-position: center;
+  }
+  
+  .login-box {
+    background-color: rgba(255, 255, 255, 0.9); /* Fondo semi-transparente */
+    padding: 40px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    max-width: 400px;
+    width: 100%;
+    text-align: center;
+  }
+  
+  .login-header {
+    margin-bottom: 20px;
+  }
+  
+  .login-logo {
+    width: 50px;
+    margin-bottom: 10px;
+  }
+  
+  .login-group {
+    margin-bottom: 20px;
+    text-align: left;
+  }
+  
+  .login-group label {
+    display: block;
+    font-size: 14px;
+    color: #666;
+    margin-bottom: 5px;
+  }
+  
+  .login-group input[type="text"],
+  .login-group input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+  }
+  
+  .remember-me {
+    display: flex;
+    align-items: center;
+  }
+  
+  .remember-me input {
+    margin-right: 10px;
+  }
+  
+  .login-button {
+    width: 100%;
+    padding: 15px;
+    font-size: 16px;
+    color: #fff;
+    background-color: #6a67ce;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 20px;
+  }
+  
+  .forgot-password {
+    display: block;
+    margin-top: 20px;
+    font-size: 14px;
+    color: #6a67ce;
+    text-decoration: none;
+  }
+  

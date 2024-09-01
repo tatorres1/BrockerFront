@@ -8,19 +8,17 @@ const About = () => {
         <img src={require('../assets/About.png')} alt="About Us" />
       </div>
       <div className="about-text">
-        <h2>ABOUT US</h2>
+        <h2>Sobre Nosotros</h2>
         <p>
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-          Ut exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
-        </p>
+          Te invitamos a que nos conozcas un poco mas, puede visitarnos n nuestras agencias o atraves de las redes sociales. B&F seguros es un brocker con cobertura a nivel nacional</p>
         <h3 className="why-choose-us">Por que B&F seguros?</h3>
         <ul>
           <li>Planes acumulativos</li>
           <li>Atencion 24/7</li>
-          <li>Aliquip ex ea commodo</li>
-          <li>Exercitation ullamco</li>
-          <li>Lorem ipsum dolor</li>
-          <li>Incididunt ut labore</li>
+          <li>covertura a nivel nacional e internacional</li>
+          <li>asesoramiento indivisual</li>
+          <li>Planes de pago a tu comodidad</li>
+          <li>Nos acomodamos a tus necesidades</li>
         </ul>
       </div>
     </div>

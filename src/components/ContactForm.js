@@ -7,31 +7,30 @@ const ContactForm = () => {
       <div className="contact-overlay"></div> {/* Superposición de sombra */}
       <div className="contact-content">
         <div className="contact-text">
-          <h2>Bluid your audience and sale more</h2>
+          <h2>Deja tu informacin apra contactarte</h2>
           <p>
-            Launch your campaign and benefit from our expertise on designing and managing conversion centered Tailwind CSS HTML page.
+            B&F seguros cuida de ti y de tu entorno, se parte de la familia
           </p>
           <div className="contact-buttons">
-            <button className="btn-get-started">Get Started</button>
-            <button className="btn-watch-now">WATCH NOW</button>
-          </div>
+            <button className="btn-get-started">Chatea por Whatsapp</button>
+              </div>
         </div>
         <div className="contact-form">
-          <h3>We are offering 14 days free trial</h3>
+          <h3>Para conocer mas informacion deja tus datos</h3>
           <form>
-            <div className="form-group">
-              <label htmlFor="name">Name:</label>
-              <input type="text" id="name" name="name" placeholder="Your Name" />
+            <div className="form-group" >
+              <label htmlFor="name" >Nombre:</label>
+              <input type="text" id="name" name="name" placeholder="Nombre" />
             </div>
             <div className="form-group">
               <label htmlFor="email">Email:</label>
-              <input type="email" id="email" name="email" placeholder="Your Email" />
+              <input type="email" id="email" name="email" placeholder="ejemplo@gmail.com" />
             </div>
             <div className="form-group">
-              <label htmlFor="phone">Phone No.:</label>
-              <input type="tel" id="phone" name="phone" placeholder="+12 12458 854" />
+              <label htmlFor="phone">Telefono:</label>
+              <input type="tel" id="phone" name="phone" placeholder="099 000 0000" />
             </div>
-            <button type="submit" className="btn-free-trial">Free Trial</button>
+            <button type="submit" className="btn-free-trial">Quiero que me contacten</button>
           </form>
         </div>
       </div>
